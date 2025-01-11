@@ -93,7 +93,7 @@ void loop() {
 
         // Обновление отображения количества устройств BLE
         tft.fillRect(0, 30, DISPLAY_WIDTH, 20, TFT_BLACK);
-        tft.setCursor(10, 30);
+        tft.setCursor(10, 25);
         tft.setTextSize(2);
         tft.printf("BLESpeed: %lu ble/s", deviceCount);
     }
